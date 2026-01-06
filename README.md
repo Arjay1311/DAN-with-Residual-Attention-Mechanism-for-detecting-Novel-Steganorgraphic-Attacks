@@ -69,11 +69,11 @@ Experiments on the BOSSBase dataset demonstrate the following performance:
 
 ## Outputs and Visualizations
 
-###Stego vs cover predictions
-  ![Stego_Cover_Prediction](images/NoRANet_result1.png)
-  
-###Confidence scores under varying noise levels
-  ![Confidence_Score_Noise](images/NoRANet_result2.png)
+### Stego vs Cover Predictions
+![Stego vs Cover Prediction](images/NoRANet_result1.png)
+
+### Confidence Scores Under Varying Noise Levels
+![Confidence Score Under Noise](images/NoRANet_result2.png)
 
 
 ---
