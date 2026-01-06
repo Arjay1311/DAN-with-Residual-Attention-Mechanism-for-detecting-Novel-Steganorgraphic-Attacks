@@ -7,7 +7,7 @@ The framework combines residual-based feature extraction, attention mechanisms, 
 
 ## Architecture Overview
 
-<img src="images/NoRANet_Architecture_Diagram.svg" width="600"/>
+<img src="images/NoRANet_Architecture_Diagram.svg" width="1200"/>
 
 The proposed framework consists of three main components:
 
@@ -76,7 +76,7 @@ Experiments on the BOSSBase dataset demonstrate the following performance:
 
 ### Confidence Scores Under Varying Noise Levels
 <p align="center">
-  <img src="images/NoRANet_result2.png" width="60%" />
+  <img src="images/NoRANet_result2.png" height="50%" />
 </p>
 
 
