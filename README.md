@@ -7,7 +7,7 @@ The framework combines residual-based feature extraction, attention mechanisms, 
 
 ## Architecture Overview
 
-<img src="images/Picture6.svg" width="900"/>
+<img src="images/Picture6.svg"/>
 
 The proposed framework consists of three main components:
 
