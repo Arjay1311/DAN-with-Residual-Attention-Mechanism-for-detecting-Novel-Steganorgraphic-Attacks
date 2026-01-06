@@ -30,32 +30,6 @@ The proposed framework consists of three main components:
 
 ---
 
-## Dataset
-
-The framework is evaluated using the **BOSSBase** dataset:
-- Standard benchmark dataset for image steganalysis
-- Contains grayscale images commonly used in stego detection research
-
-The Steganographic Algorithm used to Train and Test our model is **S-UNIWARD at 0.4 bpp**
-
----
-
-## Training Pipeline
-
-1. Input image
-2. Residual feature extraction
-3. Attention-guided residual fusion
-4. Dual adversarial learning (classification + reconstruction)
-5. Self-supervised consistency distillation
-6. Final stego vs cover prediction
-
-Loss functions used:
-- Binary classification loss
-- Adversarial reconstruction loss
-- Consistency distillation loss
-
----
-
 ## Results
 
 Experiments on the BOSSBase dataset demonstrate the following performance:
@@ -81,6 +55,31 @@ Experiments on the BOSSBase dataset demonstrate the following performance:
 
 
 ---
+
+## Dataset
+
+The framework is evaluated using the **BOSSBase** dataset:
+- Standard benchmark dataset for image steganalysis
+- Contains grayscale images commonly used in stego detection research
+
+The Steganographic Algorithm used to Train and Test our model is **S-UNIWARD at 0.4 bpp**
+
+---
+
+## Training Pipeline
+
+1. Input image
+2. Residual feature extraction
+3. Attention-guided residual fusion
+4. Dual adversarial learning (classification + reconstruction)
+5. Self-supervised consistency distillation
+6. Final stego vs cover prediction
+
+Loss functions used:
+- Binary classification loss
+- Adversarial reconstruction loss
+- Consistency distillation loss
+
 
 
 
