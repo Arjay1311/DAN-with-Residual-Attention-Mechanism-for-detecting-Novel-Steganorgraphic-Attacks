@@ -7,7 +7,7 @@ The framework combines residual-based feature extraction, attention mechanisms, 
 
 ## Architecture Overview
 
-<img src="images/NoRANet_Architecture_Diagram.svg" width="1200"/>
+<img src="images/NoRANet_Architecture_Diagram.svg" width="900"/>
 
 The proposed framework consists of three main components:
 
